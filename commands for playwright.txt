@@ -1,0 +1,27 @@
+commands : 
+npx playwright codegen : to start local.
+npx playwright test : run the test
+npx playwright show-report : shows report   
+npx playwright test --ui : u.I test
+Add // @ts-check at the start of each test file when using JavaScript in VS Code to get automatic type checking.
+npx playwright test --headed : for live GUI
+npx playwright test --debug : to debug the test.
+
+Roles which are supprorted byplaywright.
+textbox	:<input type="text">, <textarea>
+checkbox:	<input type="checkbox">
+radio	:<input type="radio">
+combobox	:<select> (dropdown)
+spinbutton	:<input type="number">
+slider:	<input type="range">
+button:	<button>
+link:	<a href="...">
+list	:<ul>, <ol>
+listitem	:<li>
+table	:<table>
+row:	<tr>
+cell:	<td>
+columnheader:<th>
+heading : <h1>–<h6>
+dialog	:modal popup
+alert	:error messages
